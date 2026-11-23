@@ -1,0 +1,11 @@
+- gz_topic_name: /model/RotarySingleRod_model/joint/rod_joint/cmd_force
+  ros_topic_name: /model/RotarySingleRod_model/joint/rod_joint/cmd_force #/cmd_force
+  ros_type_name: std_msgs/msg/Float64
+  gz_type_name: gz.msgs.Double
+  direction: ROS_TO_GZ
+
+- gz_topic_name: /world/RotarySingleRod_world/model/RotarySingleRod_model/joint_state
+  ros_topic_name: /world/RotarySingleRod_world/model/RotarySingleRod_model/joint_state #/joint_states
+  ros_type_name: sensor_msgs/msg/JointState
+  gz_type_name: gz.msgs.Model
+  direction: GZ_TO_ROS
