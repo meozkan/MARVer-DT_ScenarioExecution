@@ -1,0 +1,9 @@
+# Goal: hedef konum (rad)
+float64 target_position
+---
+# Result: hareket bittiğinde ulaşılan konum
+float64 final_position
+bool success
+---
+# Feedback: kontrol sırasında konum hatası
+float64 position_error

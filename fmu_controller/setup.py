@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'fmu_node = fmu_controller.fmu_node:main',
+            'fmu_action_server = fmu_controller.fmu_controller_action_server:main',
         ],
     },
 )
